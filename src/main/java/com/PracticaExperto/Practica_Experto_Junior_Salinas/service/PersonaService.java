@@ -1,7 +1,5 @@
 package com.PracticaExperto.Practica_Experto_Junior_Salinas.service;
 
-import com.PracticaExperto.Practica_Experto_Junior_Salinas.model.Direccion;
-import com.PracticaExperto.Practica_Experto_Junior_Salinas.model.Libro;
 import com.PracticaExperto.Practica_Experto_Junior_Salinas.model.Persona;
 import com.PracticaExperto.Practica_Experto_Junior_Salinas.repository.PersonaRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;

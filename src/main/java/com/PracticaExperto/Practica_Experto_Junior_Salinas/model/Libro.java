@@ -22,4 +22,12 @@ public class Libro {
             inverseJoinColumns = @JoinColumn(name = "autor_id")
     )
     private Set<Autor> autor = new HashSet<>();
+
+    public Libro() {
+    }
+
+    public Libro(Long id, String titulo) {
+        this.id = id;
+        this.titulo = titulo;
+    }
 }

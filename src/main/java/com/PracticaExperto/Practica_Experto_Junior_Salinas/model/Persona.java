@@ -13,6 +13,14 @@ import java.util.List;
 @Getter
 @Setter
 public class Persona {
+    public Persona() {
+    }
+
+    public Persona(Long id, String nombre) {
+        this.id = id;
+        this.nombre = nombre;
+
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
